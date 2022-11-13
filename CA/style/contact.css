@@ -18,19 +18,76 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(9, 1fr);
+  place-content: center;
+  flex-wrap: wrap;
 }
 .contact1 {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
   grid-row: 3/4;
-  grid-column: 2/6;
+  grid-column: 3/5;
 }
 .contact2 {
   display: flex;
   grid-row: 5/6;
-  grid-column: 2/6;
+  grid-column: 3/5;
+  align-items: center;
 }
 .contact3 {
   display: flex;
   grid-row: 7/8;
-  grid-column: 2/6;
+  grid-column: 3/5;
+  align-items: center;
+}
+.contact1 i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.contact2 i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.contact3 i {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+.mail {
+  width: 100%;
+  grid-row: 4;
+  grid-column: 3/4;
+  color: #0094ff;
+}
+.insta {
+  width: 100%;
+  grid-row: 6;
+  grid-column: 3/4;
+  color: #0094ff;
+}
+.twitt {
+  width: 100%;
+  grid-row: 8;
+  grid-column: 3/4;
+  color: #0094ff;
+}
+@media (max-width: 800px) {
+  .contact1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-row: 2/4;
+    grid-column: 2/6;
+  }
+  .contact2 {
+    display: flex;
+    grid-row: 5/6;
+    grid-column: 2/6;
+    align-items: center;
+  }
+  .contact3 {
+    display: flex;
+    grid-row: 7/8;
+    grid-column: 2/6;
+    align-items: center;
+  }
 }
