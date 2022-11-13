@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body class="checkoutpage">
     <div class="grid-container">
       <header>
         <img class="logo" src="../media/logo.png" alt="Intrepid Logo" />
@@ -31,8 +31,26 @@
           </div>
         </nav>
       </header>
-      <main></main>
-      <footer>
+      <main>
+        <div class="aboutheader">Checkout</div>
+        <div class="checkoutbox">
+          <div class="inputbox">
+            <p>Full name:</p>
+            <input type="text" id="fullname" name="namebox" />
+            <p>Adress:</p>
+            <input type="text" id="adress" name="addressbox" />
+            <p>Card number:</p>
+            <input type="text" id="cardnumber" name="cardnumber" />
+            <p>Expiration date:</p>
+            <input type="text" id="date" name="datebox" />
+            <p>CVV</p>
+            <input type="text" id="cvv" name="cvvbox" />
+            <a class="paynow" href="./checkoutsuccess.html"><div class="paynowbtn">PAY NOW</div>
+          </div>
+          <div class="cart box"></div>
+          </div>
+      </main>
+      <footer class="checkoutfooter">
         <div class="socials1"><i class="fa-brands fa-twitter"></i></div>
         <div class="socials2"><i class="fa-brands fa-instagram"></i></div>
         <div class="socials3"><i class="fa-solid fa-headset"></i></div>
