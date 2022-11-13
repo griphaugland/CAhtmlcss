@@ -1,4 +1,5 @@
 @import "./partials/variables.css";
 @import "./partials/layout.css";
 @import "./partials/cards.css";
+@import "../style/about.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");

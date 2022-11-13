@@ -9,6 +9,7 @@
   color: #0094ff;
 }
 .cardbox {
+  width: 50%;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
@@ -34,4 +35,76 @@
 .cards {
   height: 13rem;
   width: 12rem;
+}
+.carddescription {
+  display: none;
+}
+@media (min-width: 800px) {
+  .card1 {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: auto;
+  }
+  .card2 {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: auto;
+  }
+  .card3 {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: auto;
+  }
+  .takealook {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.15em;
+    margin-top: 2rem;
+    color: #0094ff;
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+  .cardbox {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 6rem;
+  }
+  .card1 {
+    text-align: center;
+  }
+  .card2 {
+    text-align: center;
+  }
+  .card3 {
+    text-align: center;
+  }
+  .cardtext {
+    margin-bottom: 1.5rem;
+    margin-right: 12rem;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .cards {
+    height: 13rem;
+    width: 12rem;
+    grid-column: 1;
+    grid-row: 1/3;
+  }
+  .carddescription {
+    margin-left: 4rem;
+    display: flex;
+    width: 70%;
+    grid-column: 2;
+    grid-row: 2;
+  }
 }
