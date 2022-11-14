@@ -11,7 +11,7 @@
 }
 .checkoutbox {
   width: 100%;
-  height: 90%;
+  height: 90vh;
   margin-top: 5rem;
   display: flex;
   flex-direction: row-reverse;
@@ -37,7 +37,7 @@
 }
 
 .inputbox {
-  width: 40%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,5 +122,29 @@
   }
   .inputbox {
     width: 70%;
+  }
+}
+@media (min-width: 1212px) {
+  .checkoutpage .grid-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: auto;
+  }
+  .checkoutfooter {
+    margin-top: 6rem;
+    background-color: var(--footerColor);
+    grid-column: 1/15;
+    grid-row: 16;
+    z-index: 1;
+    height: 100%;
+  }
+  .checkoutbox {
+    height: 50%;
+    grid-row: 2/8;
+    grid-column: 1/11;
+  }
+  .checkoutpage {
+    height: 100vh;
   }
 }
