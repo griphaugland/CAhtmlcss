@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intrepid</title>
-    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="../../style/index.css" />
     <script
       src="https://kit.fontawesome.com/17c7a6edf9.js"
       crossorigin="anonymous"
@@ -14,23 +14,61 @@
   <body>
     <div class="grid-container">
       <header>
-        <img class="logo" src="./media/logo.png" alt="Intrepid Logo" />
+        <img class="logo" src="../../media/logo.png" alt="Intrepid Logo" />
         <input type="checkbox" id="menu-checkbox" />
         <label class="menu-icon" for="menu-checkbox"
           ><i class="fa-solid fa-bars"></i
         ></label>
         <nav>
           <div class="menustructure">
-            <a href="./index.html" class="menutext">Home</a>
-            <a href="./pages/jackets.html" class="menutext">Jackets</a>
-            <a href="./pages/about.html" class="menutext">About</a>
-            <a href="./pages/contact.html" class="menutext">Contact</a>
-            <a href="./pages/checkout.html" class="carticon"
-              ><i class="fa-solid fa-bag-shopping"></i
-            ></a>
+            <a href="../../index.html" class="menutext">Home</a>
+            <a href="../jackets.html" class="menutext">Jackets</a>
+            <a href="../about.html" class="menutext">About</a>
+            <a href="../contact.html" class="menutext">Contact</a>
+            <a href="../checkout.html" class="carticon"
+              ><i class="fa-solid fa-bag-shopping"></i></a>
+          </div>
         </nav>
       </header>
-      <main></main>
+      <main class="productpage">
+        <div class="productheader">
+          <p class="jacketname">Expedition</p>
+          <p class="pricetag">274$</p>
+          <p class="description">
+            A durable and thick jacket designed to keep you warm and dry on your adventures. </p>
+        </div>
+          <div class="wrap-container">
+            <div class="jacketimage"><img class="sproduct1" src="../../media/RainyDays_Jacket3.png"></div>
+               <div class="buttonbox">
+                  <div class="size-boxes">
+                    <p class="size">Sizes</p>
+                      <input type="radio" id="sizesmall" name="sizebox"/>
+                      <label class="small" for="sizesmall">S</label>
+                      <input type="radio" id="sizemedium" name="sizebox"/>
+                      <label class="medium" for="sizemedium">M</label>
+                      <input type="radio" id="sizelarge" name="sizebox"/>
+                      <label class="large" for="sizelarge">L</label>
+                      </div>
+                      <div class="color-boxes">
+                        <p class="color">Color</p>
+                        <input type="radio" id="colorbtn-brown" name="colorbox"/>
+                        <label class="brown" for="colorbtn-brown"></label>
+                        <input type="radio" id="colorbtn-maroon" name="colorbox"/>
+                        <label class="maroon" for="colorbtn-maroon"></label>
+                        <input type="radio" id="colorbtn-black" name="colorbox"/>
+                        <label class="black" for="colorbtn-black"></label>
+                        <input type="radio" id="colorbtn-grey" name="colorbox"/>
+                        <label class="grey" for="colorbtn-grey"></label>
+                      </label>
+                 </div>
+                <a class="adc" href="../checkout.html"><div class="adcbutton">Add to cart</div>
+               </a>
+          </div>
+        </div>
+
+
+
+      </main>
       <footer>
         <div class="socials1"><i class="fa-brands fa-twitter"></i></div>
         <div class="socials2"><i class="fa-brands fa-instagram"></i></div>

@@ -96,7 +96,7 @@
 .bagtext {
   align-self: center;
 }
-.medium {
+.cartinfo .medium {
   border-radius: 100%;
   border: 1px solid black;
   align-items: center;
@@ -104,11 +104,11 @@
   height: 30px;
   width: 30px;
 }
-.maroon {
+.cartinfo .maroon {
   height: 30px;
   width: 30px;
 }
-.brown {
+.cartinfo .brown {
   height: 30px;
   width: 30px;
 }
